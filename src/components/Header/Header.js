@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import TokenService from '../../services/token-service';
-import UserContext from '../../contexts/UserContext';
+import UserContext from '../../context/UserContext';
 import './Header.css';
 
 class Header extends Component {
@@ -13,13 +13,13 @@ class Header extends Component {
 
   renderLogoutLink() {
     return (
-      <div className="logged__in">
-        <span className="user__logged__in">{this.context.user.name}</span>
-        <nav className="logout__container">
+      <div className='logged__in'>
+        <span className='user__logged__in'>{this.context.user.name}</span>
+        <nav className='logout__container'>
           <Link
-            className="logout__link"
+            className='logout__link'
             onClick={this.handleLogoutClick}
-            to="/login"
+            to='/login'
           >
             Logout
           </Link>
@@ -30,16 +30,16 @@ class Header extends Component {
 
   renderLoginLink() {
     return (
-      <div className="login__route">
-        <p className="tagline">
+      <div className='login__route'>
+        <p className='tagline'>
           Practice learning a language with the spaced repetition revision
           technique.
         </p>
-        <nav className="nav__links">
-          <Link to="/login" className="login__link">
+        <nav className='nav__links'>
+          <Link to='/login' className='login__link'>
             Login
           </Link>
-          <Link to="/register" className="register__link">
+          <Link to='/register' className='register__link'>
             Sign up
           </Link>
         </nav>
@@ -49,10 +49,10 @@ class Header extends Component {
 
   render() {
     return (
-      <header className="header__container">
-        <h1 className="header__title">
-          <Link to="/" className="header__link">
-            <span className="spaced">Spaced</span> repetition
+      <header className='header__container'>
+        <h1 className='header__title'>
+          <Link to='/' className='header__link'>
+            <span className='spaced'>Spaced</span> repetition
           </Link>
         </h1>
         {TokenService.hasAuthToken()

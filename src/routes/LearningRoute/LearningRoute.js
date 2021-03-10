@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import LanguageApiService from '../../services/language-api-service';
-import LearnContext from '../../contexts/LearnContext';
+import LearnContext from '../../context/LearnContext';
 import NextWordPage from '../../components/NextWordPage/NextWordPage';
 import './LearningRoute.css';
 import FeedbackPage from '../../components/FeedbackPage/FeedbackPage';
@@ -16,7 +16,7 @@ class LearningRoute extends Component {
   componentDidMount() {
     this.context.clearError();
     LanguageApiService.getNextWord()
-      .then(res => {
+      .then((res) => {
         this.context.setNextWord(res.nextWord);
         this.context.setTotalScore(res.totalScore);
         this.context.setWordCorrectCount(res.wordCorrectCount);
@@ -25,17 +25,17 @@ class LearningRoute extends Component {
       .catch(this.context.setError);
   }
 
-  handleChange = evt => {
+  handleChange = (evt) => {
     evt.preventDefault();
     let userInput = evt.target.value;
     this.setState({ userResponse: userInput });
   };
 
-  handleSubmitAnswer = evt => {
+  handleSubmitAnswer = (evt) => {
     evt.preventDefault();
     const guess = { guess: this.state.userResponse };
     LanguageApiService.getNextWord()
-      .then(res => {
+      .then((res) => {
         this.context.setPreviousWord(res.nextWord);
         this.setState({ previousCorrectCount: res.wordCorrectCount });
         this.setState({ previousIncorrectCount: res.wordIncorrectCount });
@@ -43,7 +43,7 @@ class LearningRoute extends Component {
       .catch(this.context.setError)
       .then(
         LanguageApiService.postGuess(guess)
-          .then(res => {
+          .then((res) => {
             this.context.clearError();
             this.setState({ feedback: true });
             this.context.setIsCorrect(res.isCorrect);
@@ -58,7 +58,7 @@ class LearningRoute extends Component {
       );
   };
 
-  handleNextWord = evt => {
+  handleNextWord = (evt) => {
     evt.preventDefault();
     this.setState({ feedback: false });
     this.setState({ userResponse: '' });
@@ -95,7 +95,7 @@ class LearningRoute extends Component {
   }
   render() {
     return (
-      <section className="learning__page">{this.renderNextWord()}</section>
+      <section className='learning__page'>{this.renderNextWord()}</section>
     );
   }
 }
