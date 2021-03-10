@@ -52,7 +52,7 @@ class RegistrationForm extends Component {
         </div>
         <div className='input__label'>
           <Label htmlFor='registration-name-input' className='form__label'>
-            Enter your name
+            Enter your name:
             <Required />
           </Label>
           <Input
@@ -66,7 +66,7 @@ class RegistrationForm extends Component {
         </div>
         <div className='input__label'>
           <Label htmlFor='registration-username-input' className='form__label'>
-            Choose a username
+            Choose a username:
             <Required />
           </Label>
 
@@ -80,7 +80,7 @@ class RegistrationForm extends Component {
         </div>
         <div className='input__label'>
           <Label htmlFor='registration-password-input' className='form__label'>
-            Choose a password
+            Choose a password:
             <Required />
           </Label>
           <Input

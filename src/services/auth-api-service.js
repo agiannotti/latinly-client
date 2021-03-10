@@ -9,8 +9,8 @@ const AuthApiService = {
         'content-type': 'application/json',
       },
       body: JSON.stringify(user),
-    }).then(res =>
-      !res.ok ? res.json().then(e => Promise.reject(e)) : res.json()
+    }).then((res) =>
+      !res.ok ? res.json().then((e) => Promise.reject(e)) : res.json()
     );
   },
   postLogin({ username, password }) {
@@ -20,8 +20,8 @@ const AuthApiService = {
         'content-type': 'application/json',
       },
       body: JSON.stringify({ username, password }),
-    }).then(res =>
-      !res.ok ? res.json().then(err => Promise.reject(err)) : res.json()
+    }).then((res) =>
+      !res.ok ? res.json().then((err) => Promise.reject(err)) : res.json()
     );
   },
   refreshToken() {
@@ -30,8 +30,8 @@ const AuthApiService = {
       headers: {
         authorization: `Bearer ${TokenService.getAuthToken()}`,
       },
-    }).then(res =>
-      !res.ok ? res.json().then(e => Promise.reject(e)) : res.json()
+    }).then((res) =>
+      !res.ok ? res.json().then((e) => Promise.reject(e)) : res.json()
     );
   },
 };

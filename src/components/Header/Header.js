@@ -32,7 +32,7 @@ class Header extends Component {
     return (
       <div className='login__route'>
         <p className='tagline'>
-          Practice learning a language with the spaced repetition revision
+          Practice learning latin phrases with the spaced repetition revision
           technique.
         </p>
         <nav className='nav__links'>

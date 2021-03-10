@@ -1,8 +1,8 @@
 {
   "baseUrl": "http://localhost:3000",
   "env": {
-    "API_ENDPOINT": "https://guarded-peak-53673.herokuapp.com/api",
-    "TOKEN_KEY": "blogful-client-auth-token"
+    "API_ENDPOINT": "http://localhost:3000/api",
+    "TOKEN_KEY": "spaced_rep_key"
   },
   "chromeWebSecurity": false
 }

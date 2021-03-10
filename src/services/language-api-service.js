@@ -10,8 +10,8 @@ const LanguageApiService = {
         'Content-Type': 'application/json',
         Authorization: `Bearer ${TokenService.getAuthToken()}`,
       },
-    }).then(res => {
-      return !res.ok ? res.json().then(e => Promise.reject(e)) : res.json();
+    }).then((res) => {
+      return !res.ok ? res.json().then((e) => Promise.reject(e)) : res.json();
     });
   },
   getNextWord() {
@@ -21,8 +21,8 @@ const LanguageApiService = {
         'Content-Type': 'application/json',
         Authorization: `Bearer ${TokenService.getAuthToken()}`,
       },
-    }).then(res => {
-      return !res.ok ? res.json().then(e => Promise.reject(e)) : res.json();
+    }).then((res) => {
+      return !res.ok ? res.json().then((e) => Promise.reject(e)) : res.json();
     });
   },
   postGuess(guess) {
@@ -33,8 +33,8 @@ const LanguageApiService = {
         'Content-Type': 'application/json',
         Authorization: `Bearer ${TokenService.getAuthToken()}`,
       },
-    }).then(res => {
-      return !res.ok ? res.json().then(e => Promise.reject(e)) : res.json();
+    }).then((res) => {
+      return !res.ok ? res.json().then((e) => Promise.reject(e)) : res.json();
     });
   },
 };
