@@ -20,7 +20,7 @@ class DashboardRoute extends Component {
   renderWords() {
     const { words = [] } = this.context;
     if (words.length === 0) {
-      return <p>No more phrases remaining!</p>;
+      return <p>No words left</p>;
     }
 
     return words.map((word) => (
@@ -43,9 +43,9 @@ class DashboardRoute extends Component {
           <button className='start__practicing'>Start practicing</button>
         </Link>
         <p className='total__correct'>
-          Total correct phrases:{this.context.language.total_score}
+          Total correct answers: {this.context.language.total_score}
         </p>
-        <h3 className='words__header'>Phrases to practice:</h3>
+        <h3 className='words__header'>Words to practice</h3>
         <ul className='word__list'>{this.renderWords()}</ul>
       </section>
     );

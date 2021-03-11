@@ -18,12 +18,14 @@ class FeedbackPage extends Component {
     return (
       <div className='next__word__page'>
         <h2 className='next__word__header'>
-          {isCorrect ? 'Correct!' : 'Sorry, not quite.'}
+          {isCorrect
+            ? 'You were correct! :D'
+            : 'Good try, but not quite right :('}
         </h2>
         <span className='next__word__value'>{previousWord}</span>
         <div className='DisplayFeedback'>
           <p className='feedback'>
-            The correct translation is{' '}
+            The correct translation{' '}
             <span className='span__span'>
               for {<span className='current__word'>{previousWord}</span>} was{' '}
             </span>
@@ -37,14 +39,15 @@ class FeedbackPage extends Component {
             </span>
           </p>
           <button className='next__word__button' onClick={handleNextWord}>
-            Try again!
+            Try another word!
           </button>
         </div>
 
         <div className='stat__track'>
           <div className='DisplayScore'>
             <p className='word__stats'>
-              Total Score: <span className='stat__target'>{totalScore}</span>
+              Your total score is:{' '}
+              <span className='stat__target'>{totalScore}</span>
             </p>
           </div>
           <p className='word__stats'>

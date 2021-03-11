@@ -25,7 +25,7 @@ class NextWordPage extends Component {
             htmlFor='learn-guess-input'
             className='learn__guess__input__label'
           >
-            What is the translation for this phrase?
+            What's the translation for this word?
           </label>
           <input
             name='guess'
@@ -38,7 +38,7 @@ class NextWordPage extends Component {
             required
           />
           <button type='submit' className='submit__answer'>
-            Submit your answer.
+            Submit your answer
           </button>
         </form>
         <div className='stat__track'>
@@ -49,11 +49,11 @@ class NextWordPage extends Component {
             </p>
           </div>
           <p className='word__stats'>
-            Correct! <span className='stat__target'>{wordCorrectCount}</span>{' '}
-            times.
+            You have answered this word correctly{' '}
+            <span className='stat__target'>{wordCorrectCount}</span> times.
           </p>
           <p className='word__stats'>
-            Incorrect!{' '}
+            You have answered this word incorrectly{' '}
             <span className='stat__target'>{wordIncorrectCount}</span> times.
           </p>
         </div>
