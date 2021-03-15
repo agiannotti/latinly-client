@@ -9,8 +9,8 @@ Client
 
 Server + Database
 
--https://github.com/agiannotti/spaced-rep-api
--https://spaced-rep-ajg.herokuapp.com/
+- https://github.com/agiannotti/spaced-rep-api
+- https://spaced-rep-ajg.herokuapp.com/
 
 
 
