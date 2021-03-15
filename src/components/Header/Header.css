@@ -11,6 +11,10 @@
   text-align: center;
 }
 
+.tagline {
+  padding: 10px 60px;
+}
+
 .language__name {
   text-align: center;
 }
@@ -123,5 +127,7 @@ li {
   }
 
   .login__route {
+  }
+  .footer {
   }
 }

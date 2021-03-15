@@ -5,11 +5,10 @@
 }
 
 body {
-  font-family: 'oxygen';
   font-weight: 400;
   margin: 0;
   padding: 0;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
@@ -33,7 +32,4 @@ a:visited {
 }
 
 @media (min-width: 800px) {
-  body {
-    width: 50%;
-  }
 }
