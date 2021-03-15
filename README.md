@@ -15,6 +15,7 @@ Server + Database
 
 
 ## Summary
+Learn these latin phrases by utilizing the spaced repetition technique
 
 #### Landing Page
 ![login](https://user-images.githubusercontent.com/72902345/111200057-52bf0500-858f-11eb-95d8-11b5ae329d1f.PNG)
