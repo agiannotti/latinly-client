@@ -1,13 +1,18 @@
 # Spaced Repetition Client!
 
 ## Links
-- client 
+
+Client 
 - https://spaced-rep-ajg.vercel.app/
 - https://github.com/agiannotti/spaced-rep-client
 
 
+Server + Database
 
-https://github.com/agiannotti/spaced-rep-api
+-https://github.com/agiannotti/spaced-rep-api
+-https://spaced-rep-ajg.herokuapp.com/
+
+
 
 ## Summary
 
