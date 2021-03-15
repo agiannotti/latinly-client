@@ -2,6 +2,9 @@
 
 ## Links
 
+https://github.com/agiannotti/spaced-rep-client
+https://github.com/agiannotti/spaced-rep-api
+
 ## Summary
 
 #### Landing Page
