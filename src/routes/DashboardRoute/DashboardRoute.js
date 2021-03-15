@@ -37,7 +37,7 @@ class DashboardRoute extends Component {
     return (
       <section className='dashboard'>
         <h2 className='language__name'>
-          Practice{this.context.language.name}!
+          Practice {this.context.language.name}!
         </h2>
         <Link to='/learn'>
           <button className='start__practicing'>Start practicing</button>

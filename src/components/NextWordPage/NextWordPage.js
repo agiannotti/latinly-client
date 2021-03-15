@@ -36,6 +36,7 @@ class NextWordPage extends Component {
             onChange={handleChange}
             required
           />
+          <br />
           <button type='submit' className='submit__answer'>
             Submit your answer
           </button>

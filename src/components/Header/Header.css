@@ -1,7 +1,60 @@
 .header__link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
 
 .header__container {
+  background-color: rgb(143, 164, 184);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.language__name {
+  text-align: center;
+}
+.start__practicing {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  text-decoration: none;
+}
+
+.word__list {
+  margin: 0;
+  padding: 0;
+}
+
+.word__list__item {
+  margin: 8px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+.dashboard ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+.total__correct {
+  text-align: center;
+}
+.words__header {
+  text-align: center;
+}
+
+.next__word__page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px 35px;
 }
 
 .header__title {
@@ -17,22 +70,43 @@
 }
 
 .registration__option {
+  text-align: center;
 }
 
-.spaced {
+.registration__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
 }
 
-.logged__in {
+.form__submit {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.input__label {
+  padding: 10px 0px;
+}
+
+.next__word__page .logged__in {
 }
 
 .user__logged__in {
 }
 .login__form {
 }
+
 .logout__link {
+  padding: 12px 1px;
 }
 
 .logout__link:hover {
+  cursor: pointer;
+}
+.submit__answer {
+  margin: 10px;
 }
 
 .tagline {
