@@ -30,18 +30,17 @@ Server + Database
 
 ## Technology Used
 
-##Client:
-ReactJS
-react-router-dom for routing and in-app navigation
-CSS (vanilla CSS)
-Babel
-Webpack
-Vercel for deployment
-Cypress for testing
-##Backend:
-Express for handling API requests
-NodeJS for interacting with the file system
-Postgrator for database migration
-Mocha, Chai, Supertest for endpoints testing
-Knex.js for interfacing with PostgreSQL database
-Heroku for database and server deployment
+Client:
+- ReactJS
+- CSS, JSX
+- Vercel
+- Cypress
+
+
+Backend:
+- Express
+- NodeJ
+- Postgrator
+- Mocha, Chai, Supertest
+- Knex.js 
+- Heroku
