@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+  background-color: #f6f6f4;
+  border-radius: 35px;
+  border: none;
+  filter: drop-shadow(0.12rem 0.12rem 5rem #252c2d);
+}
+
+.user__logged__in {
+  display: flex;
+  justify-content: center;
+}

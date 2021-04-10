@@ -1,14 +1,20 @@
 .header__link {
   display: block;
-  text-align: center;
   text-decoration: none;
 }
 
 .header__container {
-  background-color: rgb(143, 164, 184);
+  border-radius: 12px;
   display: flex;
   flex-direction: column;
-  text-align: center;
+}
+
+.spaced {
+  color: black;
+  display: flex;
+  justify-content: start;
+  line-height: 60px;
+  padding-left: 20px;
 }
 
 .tagline {
@@ -16,7 +22,7 @@
 }
 
 .language__name {
-  text-align: center;
+  color: black;
 }
 .start__practicing {
   display: flex;
@@ -37,6 +43,8 @@
 .dashboard {
   display: flex;
   flex-direction: column;
+  padding: 12px;
+  line-height: inherit;
 }
 .dashboard ul {
   text-align: center;
@@ -47,41 +55,25 @@ li {
 }
 
 .total__correct {
-  text-align: center;
 }
 .words__header {
-  text-align: center;
 }
 
 .next__word__page {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 5px 35px;
-}
-
-.header__title {
-}
-
-.nav__links {
-}
-
-.login__link {
-}
-
-.register__link {
+  justify-content: start;
+  padding: 10px;
 }
 
 .registration__option {
-  text-align: center;
 }
 
 .registration__container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  text-align: center;
+  padding-bottom: 100px;
 }
 
 .form__submit {
@@ -94,16 +86,11 @@ li {
   padding: 10px 0px;
 }
 
-.next__word__page .logged__in {
-}
-
-.user__logged__in {
-}
-.login__form {
-}
-
 .logout__link {
-  padding: 12px 1px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 8px;
+  border-radius: 12px;
 }
 
 .logout__link:hover {
@@ -113,21 +100,15 @@ li {
   margin: 10px;
 }
 
-.tagline {
+.logout__container {
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 90px;
 }
 
 @media all and (min-width: 900px) {
-  .login__route {
-  }
-
-  .tagline {
-  }
-
-  .nav__links {
-  }
-
-  .login__route {
-  }
-  .footer {
-  }
 }

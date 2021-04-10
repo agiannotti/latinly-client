@@ -18,9 +18,7 @@ class FeedbackPage extends Component {
     return (
       <div className='next__word__page'>
         <h2 className='next__word__header'>
-          {isCorrect
-            ? 'You were correct! :D'
-            : 'Good try, but not quite right :('}
+          {isCorrect ? 'Correct!' : 'Good try, but not quite.'}
         </h2>
         <span className='next__word__value'>{previousWord}</span>
         <div className='DisplayFeedback'>

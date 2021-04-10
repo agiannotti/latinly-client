@@ -17,8 +17,15 @@ class LoginRoute extends Component {
 
   render() {
     return (
-      <section className="registration__container">
-        <h2 className="registration__option">Login</h2>
+      <section className='registration__container'>
+        <h2 className='registration__option'>
+          Demo Credentials:
+          <br />
+          Username: admin1
+          <br />
+          Password: 1Aa!2Bb@
+          <br />
+        </h2>
         <LoginForm onLoginSuccess={this.handleLoginSuccess} />
       </section>
     );

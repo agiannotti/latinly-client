@@ -20,7 +20,7 @@ class DashboardRoute extends Component {
   renderWords() {
     const { words = [] } = this.context;
     if (words.length === 0) {
-      return <p>No words left</p>;
+      return <p>No words left!</p>;
     }
 
     return words.map((word) => (

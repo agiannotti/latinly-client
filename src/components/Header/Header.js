@@ -15,7 +15,7 @@ class Header extends Component {
     return (
       <div className='logged__in'>
         <span className='user__logged__in'>
-          Hello, {this.context.user.name}!
+          Hello, {this.context.user.name}.
         </span>
         <nav className='logout__container'>
           <Link
@@ -34,7 +34,7 @@ class Header extends Component {
     return (
       <div className='login__route'>
         <p className='tagline'>
-          a language with the spaced repetition revision technique.
+          these latin phrases with the spaced repetition revision technique.
         </p>
         <nav className='nav__links'>
           <Link to='/login' className='login__link'>
@@ -54,7 +54,7 @@ class Header extends Component {
       <header className='header__container'>
         <h1 className='header__title'>
           <Link to='/' className='header__link'>
-            <span className='spaced'>Spaced Repetition</span>
+            <div className='spaced'>Spaced Repetition.</div>
           </Link>
         </h1>
         {TokenService.hasAuthToken()

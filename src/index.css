@@ -1,14 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Yantramanav:wght@300&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-weight: 400;
+  background-color: #4a6d7c;
+  color: black;
+  font-size: 35px;
+  line-height: 47px;
+  /* font-weight: 400; */
+  letter-spacing: -2px;
   margin: 0;
   padding: 0;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
@@ -16,19 +21,20 @@ body {
 
 a,
 a:link {
-  color: white;
+  text-decoration: none;
+  color: black;
 }
 a:hover {
-  color: white;
+  color: black;
 }
 a:focus {
-  color: white;
+  color: black;
 }
 a:active {
-  color: white;
+  color: black;
 }
 a:visited {
-  color: white;
+  color: black;
 }
 
 @media (min-width: 800px) {
