@@ -49,11 +49,11 @@ class NextWordPage extends Component {
             </p>
           </div>
           <p className='word__stats'>
-            You have answered this phrase correctly{' '}
+            You have answered this phrase correctly:
             <span className='stat__target'>{wordCorrectCount}</span> times.
           </p>
           <p className='word__stats'>
-            You have answered this phrase incorrectly{' '}
+            You have answered this phrase incorrectly:
             <span className='stat__target'>{wordIncorrectCount}</span> times.
           </p>
         </div>
