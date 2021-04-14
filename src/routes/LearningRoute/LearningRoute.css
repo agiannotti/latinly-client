@@ -3,10 +3,13 @@
 
 .next__word__header {
   font-size: 34px;
-  display: flex;
-  justify-content: start;
   font-weight: normal;
-  padding-left: 30px;
+
+  display: flex;
+  align-content: center;
+  margin: auto;
+
+  padding: 25px;
 }
 
 .next__word__value {
@@ -14,12 +17,14 @@
   font-weight: bold;
   font-style: none;
   text-decoration: none;
-  border: 1px solid black;
-  border-radius: 14px;
+
+  margin: auto;
+  width: 85%;
   padding-top: 40px;
   padding-bottom: 40px;
-  width: 85%;
-  margin: auto;
+
+  border: 1px solid black;
+  border-radius: 14px;
 }
 
 .DisplayFeedback {
@@ -38,25 +43,30 @@
 .quiz__form {
   display: inline-flex;
   flex-direction: column;
+
   padding-top: 12px;
   padding-bottom: 12px;
+
   border-radius: 12px;
 }
 
 .learn__guess__input__label {
+  display: flex;
+  justify-content: center;
   padding: 20px;
-  padding-left: 30px;
 }
 
 .learn-guess-input {
-  display: flex;
-  justify-content: center;
-  margin: auto;
   font-size: 25px;
   font-family: inherit;
   text-align: center;
-  width: 220px;
-  height: 75px;
+
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+  width: 250px;
+  height: 95px;
 }
 
 .submit__answer {
@@ -66,23 +76,29 @@
 }
 
 .word__stats {
-  padding: 12px;
+  font-size: 28px;
   text-align: center;
+
   display: flex;
-  width: 80%;
-  height: 200px;
-  margin: auto;
-  margin-bottom: 25px;
   flex-direction: column;
   justify-content: center;
-  font-size: 28px;
+
+  margin: auto;
+  margin-bottom: 25px;
+  padding: 12px;
+
+  width: 80%;
+  min-width: 80%;
+  height: 200px;
+
   border: 1px solid black;
   border-radius: 12px;
 }
 
 .stat__target {
-  border: 1px solid black;
   margin: auto;
   width: 40%;
+
+  border: 1px solid black;
   border-radius: 12px;
 }
