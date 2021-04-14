@@ -10,14 +10,22 @@
 .word__list {
 }
 .words__header {
+  display: flex;
+  justify-content: center;
 }
 .word__list__item {
+  font-size: 42px;
 }
 
 .word__name {
+  margin: 0;
+  font-size: 38px;
+  padding: 25px;
 }
 
 .word__details__item {
+  font-size: 22px;
+  padding: 22px;
 }
 
 @media all and (min-width: 900px) {

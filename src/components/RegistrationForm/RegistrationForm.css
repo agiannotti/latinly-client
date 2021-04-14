@@ -51,6 +51,11 @@
   border: 1px solid grey;
 }
 
+.total__correct {
+  display: flex;
+  justify-content: center;
+}
+
 .returning__user {
   display: flex;
   flex-direction: column;
