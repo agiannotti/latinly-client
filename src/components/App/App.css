@@ -1,18 +1,36 @@
 .App {
+  background-color: #ffffff;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  width: 90%;
-  background-color: #f6f6f4;
+
+  margin: 45px auto;
   border-radius: 35px;
   border: none;
-  filter: drop-shadow(0.12rem 0.12rem 5rem #252c2d);
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.288638);
 }
 
 .user__logged__in {
   display: flex;
   justify-content: center;
+}
+
+.login__route {
+}
+
+@media (min-width: 450px) {
+  .App {
+  }
+
+  .login__route {
+    padding: 50px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .App {
+    width: 50%;
+  }
 }

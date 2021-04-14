@@ -59,6 +59,7 @@ class RegistrationForm extends Component {
             Enter your name
             <Required />
           </Label>
+
           <Input
             ref={this.firstInput}
             id='registration-name-input'
@@ -87,6 +88,7 @@ class RegistrationForm extends Component {
             Choose a password
             <Required />
           </Label>
+
           <Input
             id='registration-password-input'
             name='password'

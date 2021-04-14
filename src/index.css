@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Yantramanav:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Yantramanav:wght@300&display=swap');
 
 * {
   box-sizing: border-box;
@@ -9,10 +9,8 @@ body {
   color: black;
   font-size: 35px;
   line-height: 47px;
-  /* font-weight: 400; */
-  letter-spacing: -2px;
-  margin: 0;
-  padding: 0;
+  font-weight: 500;
+  letter-spacing: -1px;
   font-family: 'Yantramanav', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,7 +33,4 @@ a:active {
 }
 a:visited {
   color: black;
-}
-
-@media (min-width: 800px) {
 }

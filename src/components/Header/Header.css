@@ -5,25 +5,31 @@
 
 .header__container {
   border-radius: 12px;
+
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .spaced {
   color: black;
   display: flex;
-  justify-content: start;
+  flex-direction: column;
+  align-items: center;
   line-height: 60px;
-  padding-left: 20px;
 }
 
 .tagline {
-  padding: 10px 60px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .language__name {
   color: black;
 }
+
 .start__practicing {
   display: flex;
   align-items: center;
@@ -43,52 +49,63 @@
 .dashboard {
   display: flex;
   flex-direction: column;
-  padding: 12px;
+
   line-height: inherit;
+  padding: 12px;
 }
 .dashboard ul {
   text-align: center;
 }
 
 li {
-  display: inline-block;
-}
-
-.total__correct {
-}
-.words__header {
+  /* display: inline-block; */
 }
 
 .next__word__page {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  padding: 10px;
-}
 
-.registration__option {
+  padding: 10px;
 }
 
 .registration__container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  padding-bottom: 100px;
+  justify-content: center;
 }
 
 .form__submit {
   display: flex;
   align-items: center;
   margin: auto;
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.288638);
 }
 
 .input__label {
+  display: flex;
+  flex-direction: column;
   padding: 10px 0px;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.nav__links {
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 8px;
+  margin-bottom: 25px;
 }
 
 .logout__link {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+
   padding-right: 8px;
   border-radius: 12px;
 }
@@ -96,19 +113,40 @@ li {
 .logout__link:hover {
   cursor: pointer;
 }
+
 .submit__answer {
   margin: 10px;
 }
 
 .logout__container {
   display: flex;
-  font-size: 28px;
   justify-content: center;
+
   margin: auto;
+  width: 90px;
+
+  font-size: 28px;
+
   border: 1px solid black;
   border-radius: 12px;
-  width: 90px;
 }
 
+@media all and (min-width: 450px) {
+  .registration__container {
+    padding: 30px 50px 60px 50px;
+  }
+
+  .tagline {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    min-width: 70%;
+    padding-top: 55px;
+  }
+}
+
+/*  <!-----  Media All 900px  ----->  */
 @media all and (min-width: 900px) {
+  .spaced {
+  }
 }
