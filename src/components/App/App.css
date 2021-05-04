@@ -17,27 +17,6 @@
   justify-content: center;
 }
 
-@media (min-width: 450px) {
-  .App {
-    line-height: 25px;
-  }
-
-  .login__route {
-    padding: 50px;
-  }
-
-  .logout__container {
-    padding-top: 12px;
-  }
-}
-
-@media (min-width: 1100px) {
-  .App {
-    width: 70%;
-    line-height: 25px;
-  }
-}
-
 .next__word__header {
   font-size: 34px;
   font-weight: normal;
@@ -336,9 +315,22 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.288638);
 }
 
-/*  !Media All 450px  */
+/* 
+==================== !Media All 450px ======================
+*/
 
 @media all and (min-width: 450px) {
+  .App {
+    line-height: 25px;
+  }
+
+  .login__route {
+    padding: 50px;
+  }
+
+  .logout__container {
+    padding-top: 12px;
+  }
   .spaced {
     font-size: 100px;
   }
@@ -356,8 +348,9 @@
   }
 }
 
-/*  !Media All 900px  */
-
+/* 
+==================== !Media All 900px ======================
+*/
 @media all and (min-width: 900px) {
 }
 
@@ -380,5 +373,12 @@
   padding: 22px;
 }
 
-@media all and (min-width: 900px) {
+/* 
+==================== !Media All 1100px ======================
+*/
+@media (min-width: 1100px) {
+  .App {
+    width: 70%;
+    line-height: 25px;
+  }
 }
