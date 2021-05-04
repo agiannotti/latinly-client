@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Yantramanav:wght@300&display=swap');
+
+body {
+  font-family: 'Yantramanav', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+
+  background-color: #4a6d7c;
+  color: black;
+
+  margin: 0;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+a,
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: black;
+}
+a:focus {
+  color: black;
+}
+a:active {
+  color: black;
+}
+a:visited {
+  color: black;
+}
