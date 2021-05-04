@@ -43,8 +43,7 @@ class Header extends Component {
           </Link>
         </nav>
         <p className='tagline'>
-          Learn these latin phrases with the spaced repetition revision
-          technique.
+          Learn latin phrases with the spaced repetition revision technique.
         </p>
       </div>
     );
@@ -55,10 +54,7 @@ class Header extends Component {
       <header className='header__container'>
         <h1 className='header__title'>
           <Link to='/' className='header__link'>
-            <div className='spaced'>
-              Spaced
-              <br /> Repetition.
-            </div>
+            <div className='spaced'>Latinly </div>
           </Link>
         </h1>
         {TokenService.hasAuthToken()
