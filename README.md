@@ -10,7 +10,7 @@ Client
 Server + Database
 
 - https://github.com/agiannotti/latinly-api
-- https://latinly-ajg.herokuapp.com/
+- https://latinly-back-end.herokuapp.com/
 
 ## Summary
 
