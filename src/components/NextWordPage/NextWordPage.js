@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LearnContext from '../../context/LearnContext';
+
 class NextWordPage extends Component {
   static contextType = LearnContext;
   render() {

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import LanguageApiService from '../../services/language-api-service';
-import LearnContext from '../../context/LearnContext';
-import NextWordPage from '../../components/NextWordPage/NextWordPage';
-import './LearningRoute.css';
+
 import FeedbackPage from '../../components/FeedbackPage/FeedbackPage';
+import NextWordPage from '../../components/NextWordPage/NextWordPage';
+import LearnContext from '../../context/LearnContext';
+import LanguageApiService from '../../services/language-api-service';
+
 class LearningRoute extends Component {
   static contextType = LearnContext;
   state = {

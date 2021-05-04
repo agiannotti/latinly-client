@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import LanguageApiService from '../../services/language-api-service';
 import LanguageContext from '../../context/LanguageContext';
-import './DashboardRoute.css';
 import WordList from '../../components/WordList/WordList';
 import { Link } from 'react-router-dom';
 class DashboardRoute extends Component {

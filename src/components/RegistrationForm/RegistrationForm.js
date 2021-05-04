@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Input, Required, Label } from '../Form/Form';
+
+import UserContext from '../../context/UserContext';
 import AuthApiService from '../../services/auth-api-service';
 import Button from '../Button/Button';
-import './RegistrationForm.css';
-import UserContext from '../../context/UserContext';
+import { Input, Label, Required } from '../Form/Form';
+
 class RegistrationForm extends Component {
   static defaultProps = {
     onRegistrationSuccess: () => {},
