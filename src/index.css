@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Yantramanav:wght@300&display=swap');
 
-* {
-  box-sizing: border-box;
-}
-
 body {
-  background-color: #4a6d7c;
-  color: black;
-  font-size: 35px;
-  line-height: 47px;
-  font-weight: 500;
-  letter-spacing: -1px;
   font-family: 'Yantramanav', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+
+  background-color: #4a6d7c;
+  color: black;
+
+  margin: 0;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
 }
 
 a,
