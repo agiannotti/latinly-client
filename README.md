@@ -29,7 +29,7 @@ Learn these latin phrases by utilizing the spaced repetition technique
 Client:
 
 - ReactJS
-- CSS, JSX
+- CSS, HTML
 - Vercel
 - Cypress
 

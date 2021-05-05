@@ -6,11 +6,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 
-  background-color: #4a6d7c;
-  color: black;
+  background-color: #366f88;
+  color: #fff;
 
   margin: 0;
-  padding: 20px;
 
   display: flex;
   flex-direction: column;
@@ -21,17 +20,17 @@ body {
 a,
 a:link {
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 a:hover {
-  color: black;
+  color: #fff;
 }
 a:focus {
-  color: black;
+  color: #fff;
 }
 a:active {
-  color: black;
+  color: #fff;
 }
 a:visited {
-  color: black;
+  color: #fff;
 }
