@@ -44,8 +44,7 @@ class FeedbackPage extends Component {
         <div className='stat__track'>
           <div className='DisplayScore'>
             <p className='word__stats'>
-              Your total score is:{' '}
-              <span className='stat__target'>{totalScore}</span>
+              Total Score: <span className='stat__target'>{totalScore}</span>
             </p>
           </div>
           <p className='word__stats'>

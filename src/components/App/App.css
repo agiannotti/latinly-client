@@ -9,18 +9,34 @@
 }
 .app_name {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+}
+
+.user__logged__in {
+  padding: 20px;
 }
 
 .header__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0;
+}
+
+.next__word__header {
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
   margin: auto;
+  padding: 20px;
 }
 
 .login__link,
 .register__link,
+.logout__container,
+.start__practicing,
+.submit__answer,
+.next__word__button,
 .form__submit {
   font-family: inherit;
   background-color: rgb(130, 187, 123);
@@ -35,6 +51,18 @@
   border: none;
   border-radius: 3px;
   box-shadow: 4px -4px rgba(1, 135, 135, 0.933);
+}
+
+.next__word__button {
+  color: #fff;
+  font-size: 25px;
+  padding: 15px 110px;
+}
+
+.submit__answer {
+  color: #fff;
+  font-size: 25px;
+  padding: 15px 110px;
 }
 
 .form__submit {
@@ -84,9 +112,87 @@
 
 .word__list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 
-  padding: 0;
+  padding: 20px;
   list-style-type: none;
+}
+
+.word__list__item {
+  background-color: brown;
+
+  padding: 12px;
+  margin: 12px;
+
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(67, 62, 62, 0.289);
+}
+
+.next__word__value {
+  background-color: #fff;
+  color: red;
+  font-size: 50px;
+
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 25px 45px;
+
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(67, 62, 62, 0.289);
+}
+
+#learn-guess-input {
+  display: block;
+  justify-self: center;
+  margin: auto;
+  margin-top: 24px;
+  padding: 30px;
+  text-align: center;
+
+  border: none;
+  border-radius: 20px;
+  outline: none;
+
+  box-shadow: 0px 2px 4px rgba(67, 62, 62, 0.289);
+}
+
+.next__word__page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.word__stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.correct__text,
+.current__text {
+  background-color: #fff;
+  color: green;
+  font-size: 50px;
+
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 25px 45px;
+
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(67, 62, 62, 0.289);
 }

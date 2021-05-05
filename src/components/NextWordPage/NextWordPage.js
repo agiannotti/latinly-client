@@ -45,17 +45,16 @@ class NextWordPage extends Component {
         <div className='stat__track'>
           <div className='DisplayScore'>
             <p className='word__stats'>
-              Your total score is:{' '}
-              <span className='stat__target'>{totalScore}</span>
+              Total Score<span className='stat__target'>{totalScore}</span>
             </p>
           </div>
           <p className='word__stats'>
-            You have answered this phrase correctly:
-            <span className='stat__target'>{wordCorrectCount}</span> times.
+            Correct
+            <span className='stat__target'>{wordCorrectCount}</span>
           </p>
           <p className='word__stats'>
-            You have answered this phrase incorrectly:
-            <span className='stat__target'>{wordIncorrectCount}</span> times.
+            Incorrect
+            <span className='stat__target'>{wordIncorrectCount}</span>
           </p>
         </div>
       </div>
