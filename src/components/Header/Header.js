@@ -34,6 +34,9 @@ class Header extends Component {
   renderLoginLink() {
     return (
       <div className='login__route'>
+        <p className='tagline'>
+          Learn latin phrases with the spaced repetition revision technique.
+        </p>
         <nav className='nav__links'>
           <Link to='/login' className='login__link'>
             Login
@@ -44,9 +47,6 @@ class Header extends Component {
             Sign up
           </Link>
         </nav>
-        <p className='tagline'>
-          Learn latin phrases with the spaced repetition revision technique.
-        </p>
       </div>
     );
   }
@@ -56,7 +56,7 @@ class Header extends Component {
       <header className='header__container'>
         <h1 className='header__title'>
           <Link to='/' className='header__link'>
-            <div className='spaced'>Latinly </div>
+            <div className='app_name'>Latinly </div>
           </Link>
         </h1>
         {TokenService.hasAuthToken()

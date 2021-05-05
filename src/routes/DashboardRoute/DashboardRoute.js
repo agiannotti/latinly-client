@@ -35,9 +35,9 @@ class DashboardRoute extends Component {
   render() {
     return (
       <section className='dashboard'>
-        <h2 className='language__name'>
-          Practice {this.context.language.name}!
-        </h2>
+        <h4 className='language__name'>
+          Practice these {this.context.language.name} phrases,
+        </h4>
         <Link to='/learn'>
           <button className='start__practicing'>Start practicing</button>
         </Link>

@@ -1,4 +1,4 @@
-# Spaced Repetition Client!
+# Latinly Client!
 
 ## Links
 

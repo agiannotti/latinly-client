@@ -5,6 +5,81 @@
   text-align: center;
 
   padding: 20px;
+  box-sizing: inherit;
+}
+.app_name {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.login__link,
+.register__link,
+.form__submit {
+  font-family: inherit;
+  background-color: rgb(130, 187, 123);
+
+  display: flex;
+  justify-content: center;
+  padding: 8px 75px;
+  width: 100px;
+  min-width: 100px;
+  margin: auto;
+
+  border: none;
+  border-radius: 3px;
+  box-shadow: 4px -4px rgba(1, 135, 135, 0.933);
+}
+
+.form__submit {
+  margin-top: 15px;
+}
+
+.registration__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.registration__container input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: 8px;
+
+  border: none;
+  border-radius: 20px;
+  outline: none;
+
+  box-shadow: 0px 2px 4px rgba(67, 62, 62, 0.289);
+}
+
+.demo__credentials {
+  text-align: center;
+  font-weight: normal;
+  background-color: #dd8686c2;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+
+  width: 145px;
+
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(67, 62, 62, 0.289);
 }
 
 .word__list {
