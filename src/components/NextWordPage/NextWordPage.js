@@ -18,14 +18,14 @@ class NextWordPage extends Component {
 
     return (
       <div className='next__word__page'>
-        <h2 className='next__word__header'>Here's a Latin phrase,</h2>
+        <h2 className='next__word__header'>Here is a Latin phrase:</h2>
         <span className='next__word__value'>{nextWord}</span>
         <form className='quiz__form' onSubmit={handleSubmitAnswer}>
           <label
             htmlFor='learn-guess-input'
             className='learn__guess__input__label'
           >
-            What's the translation for this phrase?
+            What is the English translation for this phrase?
           </label>
           <input
             name='guess'

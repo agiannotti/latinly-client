@@ -56,7 +56,7 @@ class Header extends Component {
       <header className='header__container'>
         <h1 className='header__title'>
           <Link to='/' className='header__link'>
-            <div className='app_name'>Latinly </div>
+            <div className='app_name'>Latinly. </div>
           </Link>
         </h1>
         {TokenService.hasAuthToken()
