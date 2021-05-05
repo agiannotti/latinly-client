@@ -15,9 +15,9 @@ class Header extends Component {
 
     return (
       <div className='logged__in'>
-        <span className='user__logged__in'>
+        <div className='user__logged__in'>
           Hello, {username.charAt(0).toUpperCase() + username.slice(1)}.
-        </span>
+        </div>
         <nav className='logout__container'>
           <Link
             className='logout__link'

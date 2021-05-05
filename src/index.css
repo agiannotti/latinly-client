@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Yantramanav:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 body {
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 500;
+  line-height: 32px;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
