@@ -11,10 +11,12 @@ class Header extends Component {
   };
 
   renderLogoutLink() {
+    let username = this.context.user.name;
+
     return (
       <div className='logged__in'>
         <span className='user__logged__in'>
-          Hello, {this.context.user.name}.
+          Hello, {username.charAt(0).toUpperCase() + username.slice(1)}.
         </span>
         <nav className='logout__container'>
           <Link
