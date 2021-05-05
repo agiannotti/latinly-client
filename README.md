@@ -4,12 +4,12 @@
 
 Client
 
-- https://latinly-ajg.vercel.app/
+- https://latinly.vercel.app/
 - https://github.com/agiannotti/latinly-client
 
 Server + Database
 
-- https://github.com/agiannotti/latinly-api
+- https://github.com/agiannotti/latinly-back-end
 - https://latinly-back-end.herokuapp.com/
 
 ## Summary
